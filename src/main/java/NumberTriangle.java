@@ -93,7 +93,7 @@ public class NumberTriangle {
         NumberTriangle current = this;
         for (int i = 0; i < path.length(); i++) {
             char ch = path.charAt(i);
-            if (ch == '1'){
+            if (ch == 'l'){
                 current = current.left;
             }
             else {
